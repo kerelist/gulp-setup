@@ -1,0 +1,23 @@
+{
+  "parser"  : "babel-eslint",
+  "parseOptions": {
+    "ecmaVersion": 6
+  },
+  "extends" : [
+    "standard"
+  ],
+  "plugins": [
+    "babel"
+  ],
+  "env"     : {
+    "browser" : true
+  },
+  "globals" : {
+  },
+  "rules": {
+    "semi" : [2, "always"],
+    "max-len": [2, 120, 2],
+    "generator-star-spacing": 0,
+    "babel/generator-star-spacing": 1
+  }
+}
