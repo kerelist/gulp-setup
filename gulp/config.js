@@ -1,6 +1,6 @@
 'use strict';
 
-var projectDir: './',
+var projectDir = './';
 
 module.exports = {
 

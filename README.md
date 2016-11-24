@@ -2,7 +2,7 @@
 
 ## NPM & GULP
 
-###Set configurations (do not change these unless agreed upon by team)
+###Set configurations (do not change these unless necessary or agreed upon by a team)
 `.editorconfig` (see installation additional info, bottom)
 works with your editor to maintain formatting standards
 
