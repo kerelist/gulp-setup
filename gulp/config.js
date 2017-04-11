@@ -23,7 +23,7 @@ module.exports = {
     app: projectDir + 'js/app/*.js',
     vend: projectDir + 'js/vendor/*.js',
     dest: projectDir + 'build',
-    name: 'eca.js',
+    name: 'app.js',
   },
 
   svg: {
@@ -44,53 +44,53 @@ module.exports = {
     dest: projectDir + 'img'
   },
 
-  webpagetest: {
-    apiKey: 'A.68a30b5f58e092349b6d51cade99e7eb',
-    url: 'http://www.ecentricarts.com',
-    parameters: {
-      disableHTTPHeaders: true,
-      jpegQuality: 90,
-      runs: 1,
-      firstViewOnly: true,
-      disableScreenshot: true,
-      breakDown: true,
-      // "private": true,
-      location: 'Dulles:Chrome',
-      // login: 'admin',
-      // password: 'password'
-      timeline: true,
-      pageSpeed: true
-    },
-    testSpecs: {
-      median: {
-        firstView: {
-          bytesIn: 1000000,
-          visualComplete: 3000,
-          loadTime: 3000,
-          fullyLoaded: 5000,
-          requestsDoc: 55,
-          score_gzip: {"min": 90},
-          score_compress: {"min": 90},
-          score_progressive_jpeg: {"min": 95},
-          score_cache: {"min": 85},
-          render: {"max": 1000},
-          breakdown: {
-            "js": {
-              "requests": 6,
-              "bytes": 200000
-            },
-            "css": {
-              "requests": 1,
-              "bytes": 50000
-            },
-            "image": {
-              "requests": 50,
-              "bytes": 300000
-            }
-          }
-        }
-      }
-    }
-  }
+  // webpagetest: {
+  //   apiKey: '',
+  //   url: '',
+  //   parameters: {
+  //     disableHTTPHeaders: true,
+  //     jpegQuality: 90,
+  //     runs: 1,
+  //     firstViewOnly: true,
+  //     disableScreenshot: true,
+  //     breakDown: true,
+  //     // "private": true,
+  //     location: 'Dulles:Chrome',
+  //     // login: 'admin',
+  //     // password: 'password'
+  //     timeline: true,
+  //     pageSpeed: true
+  //   },
+  //   testSpecs: {
+  //     median: {
+  //       firstView: {
+  //         bytesIn: 1000000,
+  //         visualComplete: 3000,
+  //         loadTime: 3000,
+  //         fullyLoaded: 5000,
+  //         requestsDoc: 55,
+  //         score_gzip: {"min": 90},
+  //         score_compress: {"min": 90},
+  //         score_progressive_jpeg: {"min": 95},
+  //         score_cache: {"min": 85},
+  //         render: {"max": 1000},
+  //         breakdown: {
+  //           "js": {
+  //             "requests": 6,
+  //             "bytes": 200000
+  //           },
+  //           "css": {
+  //             "requests": 1,
+  //             "bytes": 50000
+  //           },
+  //           "image": {
+  //             "requests": 50,
+  //             "bytes": 300000
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
 };

@@ -9,6 +9,7 @@ var concat = require('gulp-concat');
 
 gulp.task('uglify', function() {
     return gulp.src([config.scripts.vend, config.scripts.app])
+        .pipe(babel())
         .pipe(concat(config.scripts.name))
         .pipe(uglify())
         .pipe(gulp.dest(config.scripts.dest));
