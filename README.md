@@ -2,30 +2,28 @@
 
 ## NPM & GULP
 
-###Set configurations (do not change these unless necessary or agreed upon by a team)
+### Set configurations (do not change these unless necessary or agreed upon by a team)
 `.editorconfig` (see installation additional info, bottom)
 works with your editor to maintain formatting standards
 
 `gulpfile.js`
 base installation of gulp - here, recurses through the gulp folder to find configuration and tasks
 
-###Stable configurations (will work as-is but able to be expanded upon)
+### Stable configurations (will work as-is but able to be expanded upon)
 
 `.eslintignore`
 
 `.eslintrc`
 
-###TO DO: Editable configurations (must edit to start project, see #4 below)
+### TO DO: Editable configurations (must edit to start project, see #4 below)
 `gulp/config.js`
 
-###Getting Started: The Baseline
+### Getting Started: The Baseline
 1. Open a Terminal or Command Prompt
 
 2. Navigate (`cd`) to the root folder of your project
 
 3. Enter `npm install`, hit enter, wait for process to complete (may take a few mins)
-
-Running into errors? You must have node.js and npm (usually installed with node.js) on your computer to proceed. Still having problems? Compare version numbers with someone who has the setup working.
 
 4. Navigate to the file `config.js` in the gulp folder (path `[project root]/gulp/config.js`).
 
@@ -33,7 +31,7 @@ Running into errors? You must have node.js and npm (usually installed with node.
 
 6. Test out the commands! There is a listing in this `README`, below.
 
-###[Gulp](http://gulpjs.com/)
+### [Gulp](http://gulpjs.com/)
 `v3.9.0`; sass compiled with `node-sass`, requires npm > 3.7.5
 
 __installation__
